@@ -1,0 +1,128 @@
+//timers --> 
+
+setTimeout(funtion, retraso, argumentos)
+setinmmediate(funtion, retraso, argumentos)
+setInterval(funtion, intervalo, arg1, arg2)
+
+//module -->
+
+fs -> file system
+.read
+.modify
+.copy
+.delete
+.modify name
+--Sync-- -> sicrona
+
+//NPM --> Is the file of software mas grande
+ del mundo que contiene paquetes que puedes instalar y 
+ usar con node.js
+.paquetes--> es un archivo o conjunto descrito por 
+un archivo packge jeson
+.module --> cualquer archivo que estan ubicados  en el directorio 
+node-module
+.node_modules -> package.json
+.dependencia -> paquete que otro paquete necesita para funcionar 
+correctamente
+
+depende -->          paqueteA ---> paqueteB
+
+//crear un nuevo proyecto NPM
+--->     npm init
+--->     npm init --yes
+// que rayos es .json//
+
+-introduccion a json
+. Javascript Object Notation(JSON). Es un formato de texto, 
+se usa para almacenar y transportar informacion. Esta 
+info se representa en un formato de ojeto.
+
+            [COMPUTADORA] <------JSON--------> {SERVIDOR}
+
+
+JSON.parse()
+
+//express 
+
+npm install express --> instala
+npm install express@4.15.1 --> instalación por versión
+npm install express --save-dev   --> instala dentro de una dependencia
+
+
+npm uninstall express --> decinstalla
+//que es pagkage-lock.json
+ Se genera automáticamente cuando npm modifica el arbol 
+ de node_modeles o package.json.
+
+ Describe el arbol generado para que futuras instalaciones 
+ puedan generar exactamente el mismo árbol.
+
+ .name
+ .version
+ .lockfileVersion
+ .packages -> objeto que asocia la 
+ ubicacion de cada paquete con un obj que contiene 
+ información sobre ese paquete.
+
+ //conceptos//
+
+ _asicrono : se ejecuta sin detener la app
+ _sincronoco : hasta que no se ejecute no puede 
+ continuar con el programa.
+ _evento: una accion que se realiza en la app.
+
+
+//emitters 
+
+on.()
+EventListenner()
+//PROMESAS: es un objeto de Javascript
+
+               PROMESAS
+    cumplida                rechazada
+
+.callback --> funtion flecha o de respuesta
+.then() --> true or false
+.catch(()=>{
+    console.log()
+})
+
+herrores de cliente
+400
+401
+402
+404 not fount
+403
+500
+//herrores mas comunes -->
+200 OK-respuesta fue exitosa.
+400 BADrequest- el servidor no pudo interpretar
+la solisitud
+404 NOT Fount-el servidor no pudo encontarr 
+el recurso solicitado.
+500 INTERNAL SERVER ERROR - no se como solucionarlo
+.Con nodejs y express podemos especificar el codigo
+ de estado.
+//Creamos un nuevo servidor
+
+req --> solicitud
+res --> respuesta
+end --> terminar el proceso
+puerto--> Ubicacion virtual del sistema operativo en el cual
+se puede acceder a una aplication o a un proceso especifico que 
+se ejecuta en ese puerto.
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

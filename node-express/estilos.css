@@ -1,0 +1,45 @@
+body{
+    background-color: #ccc;
+}
+header nav .nav-dos{
+    display: flex;
+    justify-content: center;
+    align-items: baseline;
+}
+.nav-dos a{
+    margin: auto;
+    background-color: gold;
+    border: black 2px solid;
+    border-radius: 2px;
+    color: black;
+    font-size: 26px;
+    font-weight: bold;
+    text-decoration: none;
+    padding: 5px;
+}
+.titulo{
+    text-align: center;
+    border-bottom: gold 3px solid;
+}
+main section .container{
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+}
+main section .dos{
+    background-color:black;
+    width: 30%;
+    margin: auto;
+    padding: 20px;
+    text-align: center;
+    margin-bottom: 15px;
+}
+#btt, #bttDos{
+    margin: 10px;
+    background-color: rgb(38, 38, 139);
+}
+#pe{
+    background-color: rgb(192, 166, 22);
+    width: 40%;
+    margin: auto;
+}

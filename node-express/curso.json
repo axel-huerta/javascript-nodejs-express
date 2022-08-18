@@ -1,0 +1,10 @@
+{
+    "titulo": "aprende a programar",
+    "numVistas": 65365,
+    "numLikes": 300,
+    "temas": [
+        "java",
+        "python"
+    ],
+    "esPublico": true
+}
